@@ -5,5 +5,7 @@ var resultText = "Result of x = "+ x +"\t in power of n= " + n + "\t equals " + 
 var divElement = document.createElement('div');
 divElement.className = "container";
 divElement.innerHTML = resultText;
+document.body.style.fontWeight = "bold";
+document.body.style.fontStyle = "italic";
 document.body.append(divElement);
 alert("Result of x = "+ x +"\t in power of n= " + n + "\t equals " + result);
